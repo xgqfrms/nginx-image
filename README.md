@@ -118,6 +118,40 @@ xgqfrms/node.js          latest    973e880b15f5   3 months ago     155MB
 
 ```
 
+
+```sh
+# pull
+$ docker pull xgqfrms/nginx-image:latest
+
+latest: Pulling from xgqfrms/nginx-image
+Digest: sha256:5c5e8a85e97c2f744174f8c9d75ac53f84f87ecef6642ef0df112d328d8c430d
+Status: Image is up to date for xgqfrms/nginx-image:latest
+docker.io/xgqfrms/nginx-image:latest
+
+```
+
+docker.io/xgqfrms/nginx-image:latest
+=> 
+https://www.docker.com/xgqfrms/nginx-image:latest
+
+http://localhost/
+
+```sh
+$ docker images                         
+REPOSITORY               TAG       IMAGE ID       CREATED          SIZE
+nginx-image              latest    f3b55eb2b316   16 minutes ago   158MB
+xgqfrms/nginx-image      latest    f3b55eb2b316   16 minutes ago   158MB
+xgqfrms/nginx-image      <none>    26c8f0d56747   2 hours ago      158MB
+getting-started-image    latest    7b610e25a98a   3 hours ago      180MB
+nginx                    latest    ae2feff98a0c   12 days ago      133MB
+docker/getting-started   latest    021a1b85e641   2 weeks ago      27.6MB
+centos                   latest    300e315adb2f   2 weeks ago      209MB
+ubuntu                   latest    f643c72bc252   4 weeks ago      72.9MB
+xgqfrms/node.js          latest    973e880b15f5   3 months ago     155MB
+
+```
+
+
 > no needs
 
 ```sh
@@ -126,9 +160,6 @@ $ docker tag f3b55eb2b316 xgqfrms/nginx-image
 
 # push
 $ docker push xgqfrms/nginx-image
-
-# pull
-$ docker pull xgqfrms/nginx-image:latest
 
 ```
 
