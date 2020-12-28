@@ -36,3 +36,20 @@ $ docker pull xgqfrms/nginx-image:latest
 
 ```
 
+## IMAGE ID
+
+> local vs remote
+
+```sh
+$ docker images
+REPOSITORY               TAG       IMAGE ID       CREATED          SIZE
+nginx-image              latest    26c8f0d56747   20 minutes ago   158MB
+xgqfrms/nginx-image      latest    26c8f0d56747   20 minutes ago   158MB
+
+getting-started-image    latest    7b610e25a98a   2 hours ago      180MB
+nginx                    latest    ae2feff98a0c   12 days ago      133MB
+docker/getting-started   latest    021a1b85e641   2 weeks ago      27.6MB
+centos                   latest    300e315adb2f   2 weeks ago      209MB
+ubuntu                   latest    f643c72bc252   4 weeks ago      72.9MB
+
+```
